@@ -3,9 +3,11 @@ name = "8-puzzle-solver"
 version = "0.1.0"
 authors = ["Gulshan Singh <gsingh2011@gmail.com>"]
 
+[features]
+unstable = []
+
 [dependencies]
 rand = "*"
 
 [dependencies.heap]
 path = "../heap"
-
